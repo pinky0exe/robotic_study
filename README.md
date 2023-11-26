@@ -7,6 +7,6 @@ hello_blink_pigpio.py - Similar program as hello_blink.py, but using the pigpio 
 
 All the programs listed below are also written using the pigpio module.
 
-hello_button.py - When the program is executed, the signal arriving at the GPIO_17 pin is read. When a signal appears, voltage is applied to the GPIO_27 pin in the same way as in hello_blink_pigpio.py.
-​
+hello_button.py - When the program is executed, the signal arriving at the GPIO_17 pin is read. When a signal appears, voltage is applied to the GPIO_27 pin in the same way as in hello_blink_pigpio.py
+
 button_event.py - When the program is executed, the signal arriving at the GPIO_17 pin is read. When the signal state changes, the click_count counter is increased by 1 and displayed on the command line.
